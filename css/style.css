@@ -1,0 +1,359 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/* Start NavBar */
+
+nav {
+    background-color: #e5f4fb;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+nav div a {
+    color: #a5b4bb;
+    text-decoration: none;
+}
+
+/* End Nav Outline */
+
+.nav-left {
+    margin-left: 150px;
+}
+
+.active {
+    border-bottom: 2px #82318d solid;
+}
+
+/* End Nav Left */
+
+.nav-right {
+    margin-right: 150px;
+}
+
+.nav-right button {
+    background-color: #fff;
+    color: #a5b4bb;
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 50px;
+    z-index: 5;
+}
+
+.nav-right button:hover {
+    color: black;
+    background-color: #a5b4bb;
+}
+
+/* End NavBar */
+
+/* Start Section 1 */
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e5f4fb;
+    height: 450px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 30%;
+}
+
+/* Start Section left */
+
+.section-left {
+    margin: 80px 0 0 240px;
+}
+
+.section-left h1 {
+    font-size: 60px;
+    color: #a5b4bb;
+}
+
+.section-left span {
+    font-size: 60px;
+    color: #82318d;
+}
+
+.section-left p {
+    font-size: 30px;
+    color: #a5b4bb;
+    margin-left: 10px;
+}
+
+/* End Section left */
+
+/* Start Section Right */
+
+.section-right {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-right: 120px;
+}
+
+.landing {
+    position: absolute;
+    top: -100px;
+    right: 70px;
+    z-index: 2;
+}
+
+.clouds {
+    position: absolute;
+    bottom: -30px;
+    left: -100px;
+    z-index: 4;
+}
+
+.man {
+    position: absolute;
+    bottom: 80px;
+    left: -100px;
+    z-index: 3;
+}
+
+.waves {
+    position: absolute;
+    top: 330px;
+    right: 340px;
+}
+
+/* End Section 1 */
+
+/* Start Section 2 */
+
+.second {
+    height: 900px;
+    width: 1360px;
+    margin-top: 100px;
+    margin-left: 130px;
+    text-align: center;
+    position: relative;
+}
+
+.wire {
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+.bic {
+    position: absolute;
+    top: 80px;
+    left: 125px;
+}
+
+.bic h2, .time h2, .disc h2 {
+    color: #a5b4bb;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.bic p, .time p, .disc p {
+    color: #a5b4bb;
+    font-size: 20px;
+}
+
+.time {
+    position: absolute;
+    width: 390px;
+    top: 153px;
+    left: 474px;
+    z-index: 2;
+}
+
+.disc {
+    position: absolute;
+    width: 381px;
+    top: 434px;
+    left: 803px;
+}
+
+.why {
+    position: relative;
+    top: 180px;
+    left: -30px;
+}
+
+.text {
+    position: absolute;
+    top: 97px;
+    left: 72px;
+}
+
+.text p, .text h2 {
+    color: white;
+}
+
+.text p {
+    margin-left: -130px;
+}
+
+.text h2 {
+    font-size: 45px;
+}
+
+/* End Section 2 */
+
+/* Start Section 3 */
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.third i {
+    color: #a5b4bb;
+    font-size: 25px;
+    margin-top: 150px;
+}
+
+.one {
+    margin-right: 100px;
+    width: 250px;
+    height: 250px;
+}
+
+.two {
+    width: 500px;
+    height: 500px;
+}
+
+.two h2, .two p {
+    text-align: center;
+    color: #a5b4bb;
+    font-size: 22px;
+}
+
+.two h2 {
+    margin-bottom: 20px;
+}
+.three {
+    margin-left: 100px;
+    width: 250px;
+    height: 250px;
+}
+
+/* End Section 3 */
+
+/* Start Footer */
+
+footer {
+    height: 650px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Start Background */
+
+.background img {
+    position: absolute;
+    width: 1650px;
+    height: 900px;
+    scale: 1.2;
+    z-index: 1;
+}
+
+.persons img {
+    width: 700px;
+    height: 460px;
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    left: 800px;
+}
+
+/* End Background */
+
+/* Start Links */
+
+/* Start Download */
+
+.download {
+    position: absolute;
+    z-index: 3;
+    top: 450px;
+    left: 200px;
+}
+
+.download button {
+    width: 150px;
+    height: 60px;
+    background-color: #fff;
+    color: #a5b4bb;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.download button:hover {
+    color: black;
+    background-color: #a5b4bb;
+}
+
+.download button img {
+    vertical-align: middle;
+    padding: 5px;
+}
+
+/* End Download */
+
+/* Start Links */
+
+.links {
+    position: absolute;
+    z-index: 3;
+    top: 540px;
+    left: 200px;
+}
+
+.links i {
+    color: #a5b4bb;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.fa-instagram:hover {
+    color: #bc2a8d;
+}
+
+.fa-whatsapp:hover {
+    color: #4dc247;
+}
+
+.fa-facebook-f:hover {
+    color: #3b5998;
+}
+
+/* End Links */
+
+/* Start bar */
+
+.bar {
+    position: absolute;
+    top: 600px;
+    left: 175px;
+    z-index: 3;
+}
+
+.bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+/* End bar */
