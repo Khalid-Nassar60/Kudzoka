@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Start NavBar */
@@ -17,28 +18,39 @@ nav {
 nav div {
     display: flex;
     align-items: center;
-    padding: 30px;
-}
-
-nav div a {
-    color: #a5b4bb;
-    text-decoration: none;
 }
 
 /* End Nav Outline */
 
 .nav-left {
-    margin-left: 150px;
+    margin-left: 160px;
 }
 
-.active {
-    border-bottom: 2px #82318d solid;
+.nav-left .active {
+    text-decoration: underline 2px #82318d;
+}
+
+.nav-left .active, .nav-left .link {
+    padding: 30px;
+    color: #a5b4bb;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.nav-left .active:hover {
+    color: black;
+    background-color: #a5b4bb;
+}
+
+.nav-left .link:hover {
+    color: black;
+    background-color: #a5b4bb;
 }
 
 /* End Nav Left */
 
 .nav-right {
-    margin-right: 150px;
+    margin-right: 260px;
 }
 
 .nav-right button {
@@ -54,6 +66,7 @@ nav div a {
 .nav-right button:hover {
     color: black;
     background-color: #a5b4bb;
+    cursor: pointer;
 }
 
 /* End NavBar */
@@ -72,7 +85,7 @@ nav div a {
 /* Start Section left */
 
 .section-left {
-    margin: 80px 0 0 240px;
+    margin: 80px 0 0 190px;
 }
 
 .section-left h1 {
@@ -112,13 +125,14 @@ nav div a {
 .clouds {
     position: absolute;
     bottom: -30px;
-    left: -100px;
+    left: -130px;
     z-index: 4;
+    opacity: 90%;
 }
 
 .man {
     position: absolute;
-    bottom: 80px;
+    bottom: 50px;
     left: -100px;
     z-index: 3;
 }
@@ -188,20 +202,20 @@ nav div a {
 
 .text {
     position: absolute;
-    top: 97px;
-    left: 72px;
+    top: 100px;
+    left: 100px;
 }
 
-.text p, .text h2 {
+.text p, .text h3 {
     color: white;
 }
 
 .text p {
-    margin-left: -130px;
+    margin-left: -90px;
 }
 
-.text h2 {
-    font-size: 45px;
+.text h3 {
+    font-size: 40px;
 }
 
 /* End Section 2 */
@@ -278,8 +292,6 @@ footer {
 
 /* End Background */
 
-/* Start Links */
-
 /* Start Download */
 
 .download {
@@ -302,6 +314,7 @@ footer {
 .download button:hover {
     color: black;
     background-color: #a5b4bb;
+    cursor: pointer;
 }
 
 .download button img {
@@ -345,7 +358,7 @@ footer {
 .bar {
     position: absolute;
     top: 600px;
-    left: 175px;
+    left: 185px;
     z-index: 3;
 }
 
@@ -353,7 +366,11 @@ footer {
     text-decoration: none;
     color: white;
     font-size: 20px;
-    padding: 30px;
+    padding: 20px;
+}
+
+.bar a:hover {
+    color: black;
 }
 
 /* End bar */
