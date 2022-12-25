@@ -23,18 +23,21 @@ nav div {
 /* End Nav Outline */
 
 .nav-left {
-    margin-left: 160px;
+    margin-left: 135px;
+}
+
+.nav-left .active, .nav-left .link {
+    padding: 30px;
+    color: #a5b4bb;
+    border-radius: 30px;
 }
 
 .nav-left .active {
     text-decoration: underline 2px #82318d;
 }
 
-.nav-left .active, .nav-left .link {
-    padding: 30px;
-    color: #a5b4bb;
+.nav-left .link {
     text-decoration: none;
-    border-radius: 30px;
 }
 
 .nav-left .active:hover {
@@ -50,7 +53,7 @@ nav div {
 /* End Nav Left */
 
 .nav-right {
-    margin-right: 260px;
+    margin-right: 280px;
 }
 
 .nav-right button {
