@@ -269,39 +269,40 @@ nav div {
 /* Start Footer */
 
 footer {
-    height: 650px;
-    overflow: hidden;
+    height: 680px;
+    width: 1743px;
+    background-image: url(../media/Group\ 1131.png);
+    background-size: 107%;
+    background-repeat: no-repeat;
     position: relative;
+    left: -80px;
+    overflow: hidden;
 }
 
-/* Start Background */
-
-.background img {
-    position: absolute;
-    width: 1650px;
-    height: 900px;
-    scale: 1.2;
-    z-index: 1;
-}
+/* Start Persons */
 
 .persons img {
-    width: 700px;
-    height: 460px;
+    width: 750px;
+    height: 520px;
     position: absolute;
     z-index: 2;
-    top: 150px;
-    left: 800px;
+    top: 160px;
+    left: 860px;
 }
 
-/* End Background */
+/* End Persons */
 
 /* Start Download */
 
-.download {
+.side-links {
     position: absolute;
     z-index: 3;
-    top: 450px;
-    left: 200px;
+    top: 480px;
+    left: 250px;
+}
+
+.download {
+margin-bottom: 25px;
 }
 
 .download button {
@@ -330,16 +331,13 @@ footer {
 /* Start Links */
 
 .links {
-    position: absolute;
-    z-index: 3;
-    top: 540px;
-    left: 200px;
+    margin-bottom: 25px;
 }
 
 .links i {
     color: #a5b4bb;
-    font-size: 30px;
-    padding: 5px;
+    font-size: 32px;
+    padding: 5px 10px 5px 0;
 }
 
 .fa-instagram:hover {
@@ -358,22 +356,16 @@ footer {
 
 /* Start bar */
 
-.bar {
-    position: absolute;
-    top: 600px;
-    left: 185px;
-    z-index: 3;
-}
-
 .bar a {
     text-decoration: none;
     color: white;
     font-size: 20px;
-    padding: 20px;
+    padding: 20px 40px 20px 0;
 }
 
 .bar a:hover {
     color: black;
-}
+} 
 
 /* End bar */
+/* End Footer */
