@@ -173,7 +173,7 @@ nav div {
 .bic {
     position: absolute;
     top: 76px;
-    left: 120px;
+    left: 100px;
 }
 
 .bic h2, .time h2, .disc h2 {
@@ -190,7 +190,7 @@ nav div {
 .time {
     position: absolute;
     width: 418px;
-    top: 155px;
+    top: 140px;
     left: 467px;
     z-index: 2;
 }
@@ -199,18 +199,18 @@ nav div {
     position: absolute;
     width: 427px;
     top: 434px;
-    left: 790px;
+    left: 800px;
 }
 
 .why {
     position: relative;
     top: 180px;
-    left: -30px;
+    left: 30px;
 }
 
 .text {
     position: absolute;
-    top: 100px;
+    top: 120px;
     left: 100px;
 }
 
@@ -219,11 +219,12 @@ nav div {
 }
 
 .text p {
-    margin-left: -90px;
+    margin-left: -110px;
+    margin-bottom: 10px;
 }
 
 .text h3 {
-    font-size: 40px;
+    font-size: 45px;
 }
 
 /* End Section 2 */
@@ -235,6 +236,7 @@ nav div {
     justify-content: center;
     align-items: center;
     height: 650px;
+    padding-top: 100px;
 }
 
 .third i {
