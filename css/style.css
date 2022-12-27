@@ -294,12 +294,12 @@ footer {
 /* Start Persons */
 
 .persons img {
-    width: 750px;
-    height: 520px;
+    width: 791px;
+    height: 527px;
     position: absolute;
     z-index: 2;
     top: 160px;
-    left: 860px;
+    left: 822px;
 }
 
 /* End Persons */
