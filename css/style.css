@@ -41,10 +41,12 @@ nav div {
 
 .nav-left .active {
     text-decoration: underline 2px #82318d;
+    transition: all 0.2s ease;
 }
 
 .nav-left .link {
     text-decoration: none;
+    transition: all 0.2s ease;
 }
 
 .nav-left .active:hover {
@@ -72,6 +74,7 @@ nav div {
     border-radius: 50px;
     z-index: 5;
     font-size: 18px;
+    transition: all 0.2s ease;
 }
 
 .nav-right button:hover {
@@ -325,6 +328,7 @@ margin-bottom: 25px;
     border: none;
     border-radius: 20px;
     margin-right: 10px;
+    transition: all 0.2s ease;
 }
 
 .download button:hover {
@@ -350,6 +354,7 @@ margin-bottom: 25px;
     color: #a5b4bb;
     font-size: 32px;
     padding: 5px 10px 5px 0;
+    transition: all 0.2s ease;
 }
 
 .fa-instagram:hover {
@@ -373,6 +378,7 @@ margin-bottom: 25px;
     color: white;
     font-size: 20px;
     padding: 20px 40px 20px 0;
+    transition: all 0.2s ease;
 }
 
 .bar a:hover {
