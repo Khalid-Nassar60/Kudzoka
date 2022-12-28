@@ -253,7 +253,7 @@ nav div {
 }
 
 .one {
-    margin-right: 100px;
+    margin: 0 100px 70px 0;
     width: 250px;
     height: 250px;
 }
@@ -261,6 +261,7 @@ nav div {
 .two {
     width: 500px;
     height: 570px;
+    z-index: 2;
 }
 
 .two h2, .two p {
@@ -273,7 +274,7 @@ nav div {
     margin-bottom: 20px;
 }
 .three {
-    margin-left: 100px;
+    margin: 0 0 10px 100px;
     width: 250px;
     height: 250px;
 }
