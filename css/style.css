@@ -174,12 +174,14 @@ nav div {
     position: absolute;
     top: 0;
     left: 300px;
+    z-index: 1;
 }
 
 .bic {
     position: absolute;
     top: 76px;
     left: 100px;
+    z-index: 2;
 }
 
 .bic h2, .time h2, .disc h2 {
@@ -206,6 +208,7 @@ nav div {
     width: 427px;
     top: 434px;
     left: 800px;
+    z-index: 2;
 }
 
 .why {
